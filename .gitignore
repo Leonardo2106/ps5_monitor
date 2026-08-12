@@ -1,0 +1,13 @@
+.env
+*.db
+*.db-journal
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+backend/monitor.log*
+backend/tests/test_ps5_prices.db
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+Thumbs.db
