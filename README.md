@@ -144,6 +144,29 @@ ps5_monitor/
 - React Router
 - Chart.js
 
+## Automações no GitHub
+
+O repositório inclui workflows para manter cada parte do projeto verificável e
+publicável sem depender do ambiente local:
+
+- **CI:** roda os testes do backend em Python 3.13, valida o TypeScript e o bundle
+  do frontend em Node 22 e confirma que a imagem Docker da API continua compilando.
+- **Security audit:** toda segunda-feira, verifica vulnerabilidades conhecidas nas
+  dependências Python e npm; também pode ser executado manualmente.
+- **Publish API image:** ao enviar uma tag como `v2.1.0`, publica a API em
+  `ghcr.io/OWNER/REPOSITORY`, com tags semânticas, cache de build e atestado de
+  proveniência em repositórios públicos. A execução manual publica uma tag baseada
+  no SHA do commit.
+- **Dependabot:** agrupa atualizações semanais de GitHub Actions, pip, npm e da
+  imagem-base Docker para reduzir o ruido de pull requests.
+
+Para publicar uma versão:
+
+```bash
+git tag v2.1.0
+git push origin v2.1.0
+```
+
 ## Instalação local
 
 ### 1. Configuração
