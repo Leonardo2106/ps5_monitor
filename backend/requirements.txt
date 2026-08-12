@@ -1,0 +1,12 @@
+fastapi>=0.116,<1.0
+uvicorn[standard]>=0.35,<1.0
+SQLAlchemy>=2.0.41,<3.0
+pydantic>=2.11,<3.0
+requests>=2.32,<3.0
+beautifulsoup4>=4.13,<5.0
+playwright>=1.55,<2.0
+schedule>=1.2,<2.0
+python-telegram-bot>=22.5,<23.0
+pytest>=8.4,<9.0
+httpx>=0.28,<1.0
+httpx2>=2.9,<3.0
