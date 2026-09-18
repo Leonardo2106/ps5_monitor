@@ -2,6 +2,15 @@
 
 Sistema full stack para monitorar preços do **PlayStation 5 Slim Digital**, do **PlayStation 5 Slim com leitor** e de outros produtos cadastrados pelo usuário. O projeto coleta preços em lojas brasileiras, mantém histórico em SQLite, pesquisa cupons em páginas públicas, acompanha canais públicos de promoções e envia alertas completos pelo Telegram.
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6)
+![Playwright](https://img.shields.io/badge/Playwright-Scraping-2EAD33)
+![Docker](https://img.shields.io/badge/Docker-ready-2496ED)
+![SQLite](https://img.shields.io/badge/SQLite-database-003B57)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF)
+
 ## Novidades desta versão
 
 - Cadastro de lojas pelo frontend.
